@@ -45,6 +45,9 @@ namespace Calcular_Resistencias
                             Console.Write("Pulse cualquier tecla para continuar. . .");
                             Console.ReadKey();
                             Console.Clear();
+                            Console.WriteLine("*******************************************************************");
+                            Console.WriteLine("Bienvenido usuario a su app medidora de resistencias por excelencia");
+                            Console.WriteLine("*******************************************************************");
                             Console.WriteLine("Ingrese su opcion de manera numerica:");
                             OpcionesMenu.OpcionesMenu();
                             Console.Write("->");
